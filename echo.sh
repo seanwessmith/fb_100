@@ -1,8 +1,5 @@
-
 #!/bin/bash
-while read line
+for ((n=0;n<10;n++))
 do
-  url="http://www.facebook.com/4"
-echo $(basename "${url%%[?#]*}")
-# => "path"
-done < output2.txt
+curl -L http://www.facebook.com/$n | grep "pageTitle" | awk '{sub(/.*title id="pageTitle">/,"");sub(/F.*/,"");print;}' >> output27.txt
+done
