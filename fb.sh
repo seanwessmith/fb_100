@@ -12,3 +12,4 @@ p=n/101
 
 bar $((n));
 done
+echo "Congratulations on finding the first 100 FB users!"
