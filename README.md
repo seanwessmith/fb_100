@@ -12,7 +12,7 @@ cd desktop
 cd fb_100-master
 ./fb.sh
 ```
-5. Type in a name for the output file and press enter.
+5. Type in a name for the output file and press enter. 
 6. The program will execute and tell you when it is done.
 7. Open the fb_100 folder on your desktop. 
 8. Double click the text file you just named. 
