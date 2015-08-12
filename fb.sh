@@ -11,4 +11,4 @@ echo "$n $t" >> $filename.txt
 
 bar $((n));
 done
-echo "Congratulations on finding the first 100 FB users!"
+echo "Congratulations on finding what's left of the first 100 FB users!"
